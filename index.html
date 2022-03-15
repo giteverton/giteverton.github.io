@@ -1,0 +1,243 @@
+<!-- ENCODED by: Everton Santos| Tinoober.com -->
+
+<!DOCTYPE html>
+
+<!-- HTML start-->
+<html lang="pt-br">
+
+<!-- HEAD -->
+<head>
+
+<title>Bits Automação</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="imagens/favicon.png">
+
+<!-- CSS REFERENCE-->
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet" />
+
+
+<!-- META TAGS-->
+<meta name="description" content="Bits Automação | Automatizar é a Nossa Missão!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="ebitsoficial.com.br">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="WEB SITE">
+<meta property="og:title" content="Bits Automação">
+<meta property="og:description" content="Bits Automação | Automatizar é a Nossa Missão!">
+<meta property="og:url" content="ebitsoficial.com.br">
+<meta name="keywords" content="Bits Automação">
+
+<!-- MOBILE APPS -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- JS -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!-- //JS -->
+
+<!-- JS start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){		
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+    });
+</script>
+<!-- // JS start-smoth-scrolling -->
+
+<!-- JS required-js-files -->
+<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+<script type="text/javascript">
+    $(document).ready( function() {
+        $('.subMenu').smint({
+            'scrollSpeed' : 1000
+        });
+    });
+</script>
+<!-- // JS required-js-files -->
+
+</head>
+<!--//HEAD -->
+
+<!-- BODY -->
+<body>
+
+<!-- START OF PAGE -->
+
+<!-- BANNER -->
+<div id="home" class="banner">
+    <!-- TODO insert movie -->
+    <div class="container">
+        <div class="banner-text">       
+            <h1>BITS AUTOMAÇÃO</h1>
+            <p>Automatizar é a Nossa Missão!</p>
+       </div>
+    </div>
+</div>
+<!--// BANNER -->
+
+<!-- MENU  -->
+<div class="navigation">
+    <!-- REMEMBER fixar o menu -->
+    <div class="container">
+        <div >
+            <div class="top-menu">
+                <ul>
+                    <li class="scroll"><a class="scroll" href="#home">HOME</a></li>
+                    <li><a class="scroll" href="#sobre">SOBRE</a></li>
+                    <li><a class="scroll" href="#servicos">SERVIÇOS</a></li>
+                    <li><a class="scroll" href="#contato">CONTATOS</a></li>
+                    
+                </ul>			
+            </div>
+        
+            <div class="clearfix"></div>
+        </div>
+        <script>
+           $("span.menu").click(function(){
+               $(".top-menu ul").slideToggle(500, function(){
+               });
+           });
+           </script>
+
+               <!-- script for menu -->
+                   <script type="text/javascript">
+                   jQuery(document).ready(function($) {
+                       $(".scroll").click(function(event){		
+                           event.preventDefault();
+                           $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                       });
+                   });
+                   </script>
+
+               <!-- script for menu -->
+               <script>
+            // CONSERTAR ESTA FUNCAO
+            $(document).ready(function() {
+                var navoffeset=$(".navigation").offset().top;
+                $(window).scroll(function(){
+                   var scrollpos=$(window).scrollTop(); 
+                   if(scrollpos >=navoffeset){
+                       $(".navigation").addClass("fixed");
+                   }else{
+                       $(".navigation").removeClass("fixed");
+                   }
+                });
+                
+            });
+            </script>
+    </div>
+</div>
+<!-- // MENU -->
+
+<!-- ABOUT  -->
+<div id="sobre"class="top-grid" >
+    <div class="container">
+        <div class="top-grid-section row">
+            
+            <div class="col-md-3 top-grids">
+                <span class="icon1"></span>
+                <h3>Bits Automação</h3>
+                <p>Estamos a mais de 25 anos no mercado de microeletrônica, e em 2014 assumimos a responsabilidade de resolver os seus problemas
+através da automação.<br>Automação de bombas de Água em geral; <br>Programação em CLP e inversor de frequência;
+                </p>
+            </div>
+            <div class="col-md-3 top-grids">
+                <span class="icon2"></span>
+                <h3>Missão</h3>
+                <p>Garantir o bom funcionamento do seu condomínio, comércio frigorífico ou residência,
+automatizando processos elétricos e gerenciamento de bombas de água.
+                </p>
+            </div>
+            <div class="col-md-3 top-grids">
+                <span class="icon3"></span>
+                <h3>Visão</h3>
+                <p>Queremos ser referência em automação de bombas de água, câmaras frigoríficas e quadro de comandos elétricos para pequenas e médias empresas/condomínios.</p>
+            </div>
+            <div class="col-md-3 top-grids">
+                <a href="https://www.youtube.com/channel/UCJD6SCfp-STR-2u4pHjG0Ag" target="blank"><span class="icon4"></span></a>
+                <h3>Valores</h3>
+                <p>Pensamos em soluções de qualidade, tendo em vista, sua realidade;Atendimento e suporte humanizado, pois sabemos, que quem faz a
+                    empresa são pessoas.</p>
+                <!-- <a class="scroll" id="novo" href="https://www.youtube.com/channel/UCJD6SCfp-STR-2u4pHjG0Ag" target="blank">teste</a> -->
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--// ABOUT -->
+
+<!-- SERVICES -->
+
+<div id="servicos" class="top-grid">
+    <div class="container">
+        <div class="top-grid-section row">
+            <h1>SERVIÇOS</h1>
+            <div id="espaço">   </div>
+            <div class="col-md-4">
+              
+                <div class="centro">
+                <img src="imagens/bomba-agua.png" width="30%"  alt="Bomba de água"/>
+                    </div>
+                <h3>Bombas e Motores</h3>
+                <p>Diminua o gasto de energia
+                    Aumento de vida útil
+                    Monitore em tempo real</p>
+            </div>
+            <div class="col-md-4 top-grids">
+                 <div class="centro">
+                    <img src="imagens/Painel-eletrico.png" width="30%"  alt="Bomba de água"/>
+                        </div>
+                <h3>Painéis Elétricos</h3>
+                <p>Proteja sua rede elétrica
+                    Diminua seu consumo
+                    Desarme automático em caso de choque</p>
+            </div>
+            <div class="col-md-4 top-grids">
+                <div class="centro">
+                    <img src="imagens/camarafria.png" width="30%"  alt="Bomba de água"/>
+                        </div> 
+               <h3>Câmaras Frias</h3>
+                <p>Controle eficiente de temperatura
+                    Monitoramento em tempo real</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<!-- // SERVICES -->
+
+
+
+<!-- CONTACT -->
+ <!-- TODO inserir footer -->
+<div id="contato" class="contact section s4">
+    <div class="social-media">
+      <a href="https://api.whatsapp.com/send?phone=5571992996100" target="blank"><i class="zap"></i></a>			
+       <a href="https://goo.gl/maps/SB7s9bA741Bsdwpg9" target="blank"><i class="linkedin"></i></a>
+       <!-- <a href="https://www.youtube.com/channel/UCJD6SCfp-STR-2u4pHjG0Ag"
+       target="blank"><i class="youtube"></i></a> -->
+       <!-- <a href="https://tinoober.com/" target="blank"><i class="site"></i></a> -->
+       <a href="https://www.instagram.com/ebitsoficial/" target="blank"><i class="instagram"></i></a>
+</div>
+<div class="copy-right">
+  
+  <p>Encoded by <a target="blank" href="https://tinoober.com">Everton Santos</a></p>
+  
+</div>
+</div>
+</div>
+<!-- // CONTACT -->
+
+</body>
+<!-- //BODY -->
+
+</html>
+<!--//HTML -->

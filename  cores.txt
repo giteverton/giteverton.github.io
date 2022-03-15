@@ -1,0 +1,9 @@
+verde= 023002ff
+       #023002
+
+dourado=f3d49fff
+
+        #f3d49f
+        
+
+fundo imagem
